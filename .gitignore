@@ -1,1 +1,25 @@
-node_modules
+# Игнорировать node_modules
+node_modules/
+
+# Игнорировать файлы .env (содержащие секреты)
+.env
+.env.*
+
+# Игнорировать файлы сборки и кэш
+.nuxt/
+.output/
+dist/
+build/
+.cache/
+
+# Игнорировать файлы журнала отладки
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Игнорировать файлы IDE (например, VS Code)
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
